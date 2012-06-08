@@ -25,5 +25,10 @@ module hpp {
     /// Choose hand for grasping
     /// \param rightHand true if right hand
     short setHand (in boolean rightHand);
+    /// Generate a goal configuration.
+    /// \param rank rank of the problem in hpp::core::Planner vector.
+    /// \param nbConfig Number of goal configurations to generate.
+    short generateGoalConfigurations (in unsigned short rank,
+				      in unsigned short nbConfig);
   }; //interface Problem
 }; // module hpp

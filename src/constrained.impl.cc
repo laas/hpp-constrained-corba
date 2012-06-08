@@ -44,6 +44,12 @@ namespace hpp {
 	planner_->setHand (rightHand);
 	return 0;
       }
+      CORBA::Short Constrained::generateGoalConfigurations
+      (CORBA::UShort rank, CORBA::UShort nbConfig)
+      {
+	assert (planner_);
+	return planner_->generateGoalConfigurations (rank, nbConfig);
+      }
     } // namespace impl
   } // namespace constrained
 } // namespace hpp

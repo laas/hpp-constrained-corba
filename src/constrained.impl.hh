@@ -37,6 +37,8 @@ namespace hpp {
 	setTarget (CORBA::Double x, CORBA::Double y, CORBA::Double z);
 	virtual CORBA::Short
 	setHand (CORBA::Boolean rightHand);
+	virtual CORBA::Short
+	generateGoalConfigurations (CORBA::UShort rank, CORBA::UShort nbConfig);
       private:
 	GraspingPlanner* planner_;
       }; // class Constrained
