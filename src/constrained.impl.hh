@@ -1,5 +1,5 @@
 // Copyright (C) 2011,2012 CNRS-LAAS
-// Author: Sebastien Dalibard.
+// Author: Florent Lamiraux.
 //
 // This file is part of the hpp-constrained-corba.
 //
