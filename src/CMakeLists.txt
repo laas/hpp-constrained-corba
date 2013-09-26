@@ -34,6 +34,7 @@ ADD_LIBRARY(${LIBRARY_NAME}
   ${CMAKE_CURRENT_BINARY_DIR}/hpp/corbaserver/constrained/constrained_idl.py
 )
 
+PKG_CONFIG_USE_DEPENDENCY(${LIBRARY_NAME} hpp-model)
 PKG_CONFIG_USE_DEPENDENCY(${LIBRARY_NAME} hpp-constrained-planner)
 PKG_CONFIG_USE_DEPENDENCY(${LIBRARY_NAME} hpp-template-corba)
 PKG_CONFIG_USE_DEPENDENCY(${LIBRARY_NAME} hpp-util)

@@ -40,6 +40,7 @@ SETUP_PROJECT()
 
 
 # Search for dependencies.
+ADD_REQUIRED_DEPENDENCY("hpp-model >= 2.3")
 ADD_REQUIRED_DEPENDENCY("hpp-constrained-planner >= 1.0")
 ADD_REQUIRED_DEPENDENCY("hpp-template-corba >= 1.1")
 ADD_REQUIRED_DEPENDENCY("hpp-util >= 0.6")

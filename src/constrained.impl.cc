@@ -18,6 +18,7 @@
 // <http://www.gnu.org/licenses/>.
 
 #include <cassert>
+#include <hpp/model/types.hh>
 #include <hpp/constrained/planner/grasping-planner.hh>
 #include "constrained.impl.hh"
 
